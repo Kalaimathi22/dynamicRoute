@@ -16,6 +16,10 @@ import DeletePost from "./DeletePost";
 function App() {
   return (
     <>
+     <div>
+      <h1>Hello Vercel!</h1>
+      <p>This is my first deployment.</p>
+    </div>
       <nav style={{ textAlign: "center", padding: "20px" }}>
         <NavLink to="/" end style={{ margin: "10px" }}>Home</NavLink>
         <NavLink to="/about" style={{ margin: "10px" }}>About</NavLink>
